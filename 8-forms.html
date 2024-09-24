@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formalar</title>
+</head>
+
+<body>
+
+    <form>
+        <p>
+            Ad : <input type="text" name="ad">
+        </p>
+
+        <p>
+            Soyad : <input type="text" name="soyad"> <!--text girişi-->
+        </p>
+
+        <p>
+            Eposta : <input type="email" name="email"><!--eposta girişi-->
+        </p>
+
+        <p>
+            Parola : <input type="password" name="password"><!--parola için-->
+        </p>
+
+        <p>
+            Parolayı Hatırla : <input type="checkbox" name="parolahatırla"><!--onay kutusu için-->
+        </p>
+
+        <p>
+            Cinsiyetiniz : <br>
+            Erkek <input type="radio" name="cinsiyet">
+            Kadın <input type="radio" name="cinsiyet"> <!--name verilirse tek seçenek seçilir.-->
+        </p>
+
+        <p>
+            Hobileriniz : <br>
+            Kitap Okumak<input type="checkbox" name="hobi">
+            Film İzleme<input type="checkbox" name="hobi">
+            Spor Yapmak<input type="checkbox" name="hobi">
+        </p>
+
+        <p>
+            Doğum Yeri:
+            <select name="dogumyeri">
+                <option>Eskişehir</option>
+                <option>İstanbul</option>
+                <option>Konya</option>
+                <option>İzmir</option> <!--seçenek alt alt çıkarma-->
+            </select>
+        </p>
+
+        <p></p>
+            Doğum Yeri:
+            <select multiple name="dogumyeri"> <!--multiple eklenirse birden fazla seçenek tercih edebilir.-->
+                <option>Eskişehir</option>
+                <option>İstanbul</option>
+                <option>Konya</option>
+                <option>İzmir</option> <!--seçenek alt alt çıkarma-->
+            </select>
+        </p>
+
+        <!--(https://www.w3schools.com/html/html_form_input_types.asp) ;
+        buradaki sitede çok fazla örnekler mevcuttur.-->
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
